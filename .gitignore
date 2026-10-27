@@ -1,0 +1,25 @@
+
+# Private configuration and secrets
+/config/mail_config.php
+.env
+.env.*
+!.env.example
+
+# Local databases and backups
+*.sql.bak
+*.dump
+database_backup/
+backups/
+
+# Temporary tests and logs
+test_email.php
+*.log
+error_log
+
+# Dependencies can be restored with Composer
+/vendor/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
